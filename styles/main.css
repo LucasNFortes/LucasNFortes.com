@@ -1,0 +1,262 @@
+main {
+  color: #ffffff;
+  width: 90%;
+  margin-left: 10%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#oi {
+  width: 100vw;
+  height: 430px;
+  display: grid;
+  grid-template-columns: 200px 300px 100px 150px;
+  grid-template-rows: 30px 130px 20px;
+  justify-content: center;
+  align-content: stretch;
+  grid-gap: 0;
+}
+#oi .oi {
+  width: 400px;
+  grid-column: 1/4;
+  grid-row: 2/4;
+}
+
+#oi .oi1 {
+  color: #ffffff;
+  grid-column: 2/3;
+  grid-row: 3/4;
+  align-content: bottom;
+}
+
+#oi .oi2 {
+  color: #ffffff;
+  grid-column: 2/3;
+  grid-row: 4/5;
+  align-content: top;
+}
+
+#link {
+  color: #00c2ff;
+  text-decoration: underline;
+}
+
+#nsa {
+  width: 100vw;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 5vw 1fr 1fr 1fr 5vw;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 50px;
+  grid-template-areas: ". news services about ." ". posts contact sobre .";
+}
+#nsa .news {
+  grid-area: news;
+}
+#nsa .services {
+  grid-area: services;
+}
+#nsa .about {
+  grid-area: about;
+}
+#nsa .posts {
+  grid-area: posts;
+  align-self: start;
+}
+#nsa .contact {
+  grid-area: contact;
+  align-content: start;
+}
+#nsa .sobre {
+  grid-area: sobre;
+  align-content: start;
+}
+
+#welcome {
+  width: 100vw;
+  height: 800px;
+  grid-gap: 30px;
+  display: grid;
+  grid-template-columns: 5vw 1fr 1fr 5vw;
+  grid-template-areas: ". text image .";
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  background-color: #000000;
+}
+#welcome .text {
+  grid-area: text;
+  justify-self: center;
+  align-self: center;
+}
+#welcome .image {
+  grid-area: image;
+  justify-self: center;
+  align-self: center;
+}
+
+#assuntos{
+  width: 100vw;
+  background-color: #1a1a1a;
+}
+#topicos {
+  margin-left: 10vw;
+  width: 80vw;
+  height: 800px;
+  grid-gap: 30px;
+  display: grid;
+  grid-template-columns: 5vw 15vw 15vw 15vw 15vw 5vw;
+  grid-template-rows: 120px 400px;
+  grid-template-areas: ". title . . . ." ". t s g f .";
+}
+#topicos .title {
+  grid-area: title;
+}
+#topicos .tecnologia {
+  grid-area: t;
+}
+#topicos .sabrina {
+  grid-area: s;
+}
+#topicos .gatos {
+  grid-area: g;
+}
+#topicos .familia {
+  grid-area: f;
+}
+
+#jornada {
+  height: 600px;
+  margin-left: 30%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#jornada p {
+  text-align: center;
+}
+
+#semgap {
+  display: grid;
+  grid-gap: 0;
+  grid-template-columns: 25vw 25vw 25vw 25vw;
+  grid-template-areas: "ta po en te";
+  width: 100vw;
+  height: 650px;
+}
+#semgap .taruma {
+  grid-area: ta;
+}
+#semgap .ponte {
+  grid-area: po;
+}
+#semgap .encontro {
+  grid-area: en;
+}#semgap .theater {
+  grid-area: te;
+}
+
+#formulario {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 30vw 20vw 40vw 10vw;
+  grid-template-areas: ". sc mm .";
+  width: 80vw;
+  height: 70vh;
+  line-height: 60px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+#formulario .grid {
+  grid-area: sc;
+}
+#formulario .form {
+  grid-area: mm;
+}
+#formulario .nome, .email, .mensagem {
+  width: 600px;
+}
+#formulario .nome, .email, .mensagem {
+  height: 50px;
+}
+
+#minha-historia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 500px;
+}
+
+#famteagat {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 15vw 15vw 15vw;
+  grid-template-areas: "f t g";
+  width: 100vw;
+  height: 600px;
+  justify-content: center;
+  background-color: #000000;
+  padding-top: 50px;
+}
+#famteagat f {
+  grid-area: f;
+}
+#famteagat t {
+  grid-area: t;
+}
+#famteagat g {
+  grid-area: g;
+}
+
+#simplista {
+  width: 100vw;
+  height: 1000px;
+  grid-gap: 30px;
+  display: grid;
+  grid-template-columns: 5vw 1fr 1fr 5vw;
+  grid-template-areas: ". image text .";
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+#simplista .text {
+  grid-area: text;
+  justify-self: center;
+  align-self: center;
+}
+#simplista .image {
+  grid-area: image;
+  justify-self: center;
+  align-self: center;
+}
+
+#ps {
+  width: 80vw;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 20vw 1fr 1fr 5vw;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 50px;
+  grid-template-areas: ". news services ." ". posts contact .";
+  background-color: #1a1a1a;
+  align-content: center;
+  padding: 100px 50px;
+  padding-right: 500px;
+}
+#ps .news {
+  grid-area: news;
+  align-items: end;
+}
+#ps .services {
+  grid-area: services;
+}
+
+#ps .posts {
+  grid-area: posts;
+  align-self: start;
+}
+#ps .contact {
+  grid-area: contact;
+  align-content: start;
+}

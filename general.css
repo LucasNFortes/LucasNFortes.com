@@ -1,0 +1,25 @@
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  text-align: justify;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  background: url(media/background.png);
+  background-size: 100%;
+  font-family: 'Share Tech Mono';
+  font-size: 22px;
+  margin-left: -5vw;
+}
+
+img {
+  max-width: 100%;
+}

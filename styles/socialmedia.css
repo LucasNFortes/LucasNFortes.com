@@ -1,0 +1,58 @@
+.socialmedias {
+  z-index: 10;
+}
+
+.socialmedias .icon-bar i {
+  margin-left: center;
+  margin-top: 15px;
+}
+
+.socialmedias .icon-bar {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.socialmedias .icon-bar a {
+  display: block;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+.socialmedias .icon-bar a:hover {
+  background: linear-gradient(120deg, #1c718a 0%, #330d8f 100%);
+  width: 60px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.socialmedias .linkedin {
+  background: #0077B5;
+  color: white;
+}
+
+.socialmedias .github {
+  background: #6879D9;
+  color: white;
+}
+
+.socialmedias .instagram {
+  background: #e1306c;
+  color: white;
+}
+
+.socialmedias .youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.socialmedias .whatsapp {
+  background: #34ad23;
+  color: white;
+}
