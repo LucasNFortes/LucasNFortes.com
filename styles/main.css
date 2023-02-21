@@ -6,6 +6,13 @@ main {
   margin-bottom: 100px;
 }
 
+#pagina-atual {
+  color:#ffffff;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-style: solid;
+}
+
 #oi {
   width: 100vw;
   height: 430px;
@@ -177,11 +184,13 @@ main {
 #formulario .nome, .email, .mensagem {
   width: 600px;
   height: 50px;
-  border-radius: 99px;
-  text-align: left;
+  border-radius: 10px;
+  text-align: left;  
+  font-size: 20px;
 }
 #formulario .mensagem {
   resize: vertical;
+  min-height: 100px;
 }
 #formulario button {
   border: none;
@@ -195,7 +204,14 @@ main {
   font-weight: 900;
 }
 #formulario button:hover {
-  background-color: #000000;
+  color: #ffffff;
+  background: #000000;
+  border: 3px solid #ffffff;
+}
+#formulario form {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 40vw;
 }
 
 #minha-historia {

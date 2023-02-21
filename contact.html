@@ -26,7 +26,7 @@
           <a href="index.html" class="underlined">Home</a>
           <a href="about.html" class="underlined">Sobre</a>
           <a href="news.html" class="underlined">News</a>
-          <a href="contact.html" class="underlined">Contato</a>
+          <a href="contact.html" id="pagina-atual" class="underlined">Contato</a>
         </ul>
       </nav>
     </div>
@@ -123,13 +123,13 @@
           <div class="form">
             <h6>MENSAGEM DIRETA</h6>
             <h1>Mande uma mensagem</h1>
-            <input name="nome" class="nome" placeholder="Nome">
-            <br>
-            <input name="email" class="email" placeholder="Email">
-            <br>
-            <input name="mensagem" class="mensagem" placeholder="Mensagem">
-            <br>
-            <button type="submit" id="send-msg">Enviar</button>
+            <form>
+              <input name="nome" class="nome" placeholder="Nome" required />
+              <input name="email" class="email" placeholder="Email" required />
+              <textarea name="mensagem" class="mensagem" placeholder="Mensagem"></textarea>
+            </br>
+              <button type="submit" id="send-msg">Enviar</button>
+            </form>
           </div>
         </form>
     </div>
