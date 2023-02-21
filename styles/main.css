@@ -171,7 +171,7 @@ main {
 #formulario .grid {
   grid-area: sc;
 }
-#formulario .form {
+#formulario #my-form {
   grid-area: mm;
 }
 #formulario .nome, .email, .mensagem {
