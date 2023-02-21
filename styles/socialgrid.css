@@ -1,15 +1,28 @@
-.social table td{
-  border: 0;
+#social tr {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 10px;
+  justify-content: left;
+}
+
+#social {
+  justify-content: space-evenly;
+}
+
+#social td {
+  margin: 5px;
+  justify-content: left;
 }
 
 .linkedin, .github, .instagram, .youtube, .whatsapp, .steam, .spotify, .facebook, .redbubble {
   width:60px;
   height:60px;
-  color:#FFF;
+  color:#FFFFFF;
   border-radius:40px;
   font-size:30px;
-  box-shadow: 1px 1px 2px #888;
+  box-shadow: 1px 1px 2px #FFFFFF;
   text-align: center;
+  cursor: pointer;
 }
 .social .linkedin {
   background-color:#0077B5;

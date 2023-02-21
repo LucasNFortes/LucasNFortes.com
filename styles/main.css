@@ -160,12 +160,12 @@ main {
 #formulario {
   display: grid;
   grid-gap: 30px;
-  grid-template-columns: 30vw 20vw 40vw 10vw;
-  grid-template-areas: ". sc mm .";
+  grid-template-columns: 30vw 40vw 60vw;
+  grid-template-areas: ". sc mm";
   width: 80vw;
   height: 70vh;
   line-height: 60px;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   align-items: flex-start;
 }
 #formulario .grid {
@@ -176,9 +176,19 @@ main {
 }
 #formulario .nome, .email, .mensagem {
   width: 600px;
-}
-#formulario .nome, .email, .mensagem {
   height: 50px;
+  border-radius: 99px;
+}
+#formulario button {
+  border: none;
+  border-radius: 99px;
+  color: black;
+  background: linear-gradient(120deg, #1c718a 0%, #27418c 50%, #330d8f 100%);;
+  transition: 0.3rem;
+  cursor: pointer;
+  height: 50px;
+  width: 100px;
+  font-weight: 900;
 }
 
 #minha-historia {
