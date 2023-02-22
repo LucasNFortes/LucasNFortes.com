@@ -4,6 +4,12 @@
   left: 0;
   top: 50%;
 }
+
+.socialmedias a {
+  align-items: center;
+  justify-content: center;
+}
+
 .socialmedias .icon-bar {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
