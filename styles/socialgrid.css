@@ -14,6 +14,10 @@
   justify-content: left;
 }
 
+#social {
+  max-width: 60%;
+}
+
 .linkedin, .github, .instagram, .youtube, .whatsapp, .steam, .spotify, .facebook, .redbubble {
   width:60px;
   height:60px;
@@ -51,9 +55,7 @@
 .social .redbubble {
   background-color:#e21621;
 }
-
-html, body {
-  max-width: 100%;
-  overflow: hidden;
-  height: 100%;
+.rb {
+  width: 30px;
+  padding: 20px 15px;
 }

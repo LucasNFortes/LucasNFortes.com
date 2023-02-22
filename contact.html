@@ -12,6 +12,8 @@
   <link rel="stylesheet" type="text/css" href="styles\socialmedia.css" media="screen" />
   <link rel="stylesheet" type="text/css" href="styles\footer.css" media="screen" />
   <link rel="stylesheet" type="text/css" href="styles\socialgrid.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="styles\form.css" media="screen" />
+  
   <title>LucasNFortes</title>
 </head>
 
@@ -35,9 +37,11 @@
   <main id="contact">
     <div id="formulario">
       <div class="grid">
-        <h6>REDES SOCIAIS</h6>
-        <h1>Se conecte</h1>
-        <h6>Para contratar serviços entre em contato.</h6>
+        <div class="title">
+          <h6>REDES SOCIAIS</h6>
+          <h1>Se conecte</h1>
+          <h6>Para contratar serviços entre em contato.</h6>
+        </div>
         <div id="social">
           <div>
               <table class="social">
@@ -110,7 +114,7 @@
                       <div class="redbubble" onclick="window.open('https://www.redbubble.com/people/LucasNFortes/', '_blank')">
                           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
                           <a href="https://www.redbubble.com/people/LucasNFortes/" target="_blank">
-                          <img style="margin-top:20px; width: 30px" src="media/redbubble.png" alt="descrição da imagem aqui">
+                          <img src="media/redbubble.png" class="rb">
                           </a>
                       </div>
                   </td>
@@ -121,16 +125,17 @@
       </div>
       <form id="my-form" action="https://formsubmit.co/lucas.fortes5052@gmail.com" method="POST">
           <div class="form">
-            <h6>MENSAGEM DIRETA</h6>
-            <h1>Mande uma mensagem</h1>
-            <form>
+            <div class="title">
+              <h6>MENSAGEM DIRETA</h6>
+              <h1>Mande uma mensagem</h1>
+            </div>
+            <div class="campos">
               <input name="nome" class="nome" placeholder="Nome" required />
               <input name="email" class="email" placeholder="Email" required />
               <textarea name="mensagem" class="mensagem" placeholder="Mensagem"></textarea>
-            </br>
-              <button type="submit" id="send-msg">Enviar</button>
-            </form>
-          </div>
+              </br>
+              <button type="submit" id="send-msg">Enviar</button>            
+            </div>
         </form>
     </div>
 
