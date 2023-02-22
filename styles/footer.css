@@ -1,20 +1,21 @@
 #footer {
+  z-index: 20;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 10vw;
-  width: 100vw;
-  z-index: 20;
-  background: #000000;
-  height: 60px;
-  font-size: 15px;
-  bottom: 0;
   text-align: center;
+  background-size: 100%;
+  height: 60px;
+  bottom: 0;
   border-top: 5px solid #000000;
 }
 
 #footer .site-info {
   font-size: 15px;
-  color: white;
   display: inline-block;
+}
+
+footer a {
+  color: #ffffff;
 }

@@ -1,31 +1,48 @@
-.logo {
+header {
   z-index: 20;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
   position: fixed;
-  width: 80px;
-  top: 10px;
-  left: 10px;
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  background: linear-gradient(120deg, #1c718a 0%, #27418c 50%, #330d8f 100%);
+  text-transform: uppercase;
 }
 
-nav {
-  position: fixed;
-  z-index: 10;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(120deg, #1c718a 0%, #27418c 50%, #330d8f 100%);
-  height: 100px;
-  font-weight: bold;
-  border-bottom: 5px solid #000000;
+@media screen and (max-width: 800px) {
+  header {
+    height: 150px;
+    justify-content: center;
+  }
+  header nav {
+    justify-content: center;
+  }
+  header .underlined {
+    margin: 10px;
+  }
+}
+
+.logo{
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+}
+
+header nav {
+  display: flex;  
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
 .underlined {
-  display: inline-block;
   position: relative;
-  font-size: 25px;
-  color: #000;
-  margin: 20px;
-  margin-top: 35px;
-  text-transform: uppercase;
+  font-weight: bold;
+  margin: 30px;
+  font-size: 1.5rem;
+  color: #000000;
 }
 
 .underlined:hover {
@@ -38,7 +55,7 @@ nav {
   width: 100%;
   transform: scaleX(0);
   height: 3px;
-  bottom: 0;
+  bottom: 1px;
   left: 0;
   background-color: #ffffff;
   transform-origin: bottom right;
@@ -48,12 +65,4 @@ nav {
 .underlined:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
-}
-
-header ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: end;
 }
