@@ -4,7 +4,7 @@ class Postagem {
 		this.titulo = titulo;
 		this.conteudo = conteudo;
 		this.data = data;
-		this.tags = ('Tags: ' + tags);
+		this.tags = tags;
 		this.imagem = imagem;
 		this.destaque = destaque;
 		this.resumo = (conteudo.substring(0, 100) + '...');
@@ -37,23 +37,33 @@ class Postagem {
     postagemElement.appendChild(tagsElement);
 
     // adicionar um evento de clique para abrir o conteúdo completo da postagem
-		postagemElement.addEventListener('click', () => {
+		continuealerElement.addEventListener('click', () => {
 
 			const conteudoElement = document.createElement('div');
 			const conteudoCompleto = document.createElement('p');
 			const imagemCompleta = document.createElement('img');
+      const voltarBotao = document.createElement('button');
+
 			conteudoCompleto.innerText = this.conteudo;
 			imagemCompleta.src = this.imagem;
-
+      voltarBotao.innerText = 'Voltar';
+      
 			conteudoElement.appendChild(conteudoCompleto);
 			conteudoElement.appendChild(imagemCompleta);
+      conteudoElement.appendChild(voltarBotao);
 
       // atualizar a página para exibir a div com o conteúdo completo
       const container = document.querySelector('#posts-container');
       container.innerHTML = '';
       container.appendChild(conteudoElement);
+
+      //adicionar evento de clique para o botão Voltar
+      voltarBotao.addEventListener('click', () => {
+        window.location.reload();
+      });
+
 		});
-    
+
 		return postagemElement;
 	}
 }
