@@ -1,14 +1,16 @@
-import React from 'react';
+import React, { useState, useEffect } from "react";
+import data from "./posts.json"
 
 document.getElementById("year").innerHTML = new Date().getFullYear();
 
+/*Formulário*/
 class Formulario extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      nome: '',
-      email: '',
-      mensagem: ''
+      Nome: '',
+      Email: '',
+      Mensagem: ''
     };
   }
 
@@ -22,16 +24,16 @@ class Formulario extends React.Component {
 
     const endpoint = 'https://formsubmit.co/lucas.fortes5052@gmail.com';
     const data = new FormData();
-    data.append('nome', this.state.nome);
-    data.append('email', this.state.email);
-    data.append('mensagem', this.state.mensagem);
+    data.append('Nome', this.state.Nome);
+    data.append('Email', this.state.Email);
+    data.append('Mensagem', this.state.Mensagem);
 
     fetch(endpoint, {
       method: 'POST',
       body: data
     })
-    .then(response => console.log(response))
-    .catch(error => console.error(error));
+      .then(response => console.log(response))
+      .catch(error => console.error(error));
   }
 
   render() {
@@ -56,5 +58,4 @@ class Formulario extends React.Component {
 }
 
 export default Formulario;
-
-
+/*End Formulário*/
