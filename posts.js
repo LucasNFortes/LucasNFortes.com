@@ -1,10 +1,11 @@
+
 /*Posts*/
 class Postagem {
 	constructor(titulo, conteudo, data, tags, imagem, destaque) {
 		this.titulo = titulo;
 		this.conteudo = conteudo;
 		this.data = data;
-		this.tags = tags;
+		this.tags = Array.isArray(tags) ? tags : [tags];
 		this.imagem = imagem;
 		this.destaque = destaque;
 		this.resumo = (conteudo.substring(0, 100) + '...');
@@ -25,8 +26,18 @@ class Postagem {
     dataElement.innerText = this.data;
 		imagemElement.src = this.destaque;
 		resumoElement.innerText = this.resumo;
-    tagsElement.innerText = this.tags;
     continuealerElement.innerText = this.continuealer;
+
+    // adicionar as tags
+    for (let i = 0; i < this.tags.length; i++) {
+      const tagElement = document.createElement('span');
+      tagElement.innerText = this.tags[i];
+      tagElement.classList.add('tag'); // adiciona a classe CSS "tag"
+      tagElement.addEventListener('click', () => {
+          window.location.href = `?tag=${this.tags[i]}`; // atualiza a URL com a tag clicada
+      });
+      tagsElement.appendChild(tagElement);
+    }
 
 		// adicionar o resumo da postagem à página
 		postagemElement.appendChild(tituloElement);
@@ -69,25 +80,65 @@ class Postagem {
 }
 // carregar os dados do arquivo JSON
 fetch('./posts.json')
-	.then(response => response.json())
-	.then(posts => {
-		// criar uma instância do construtor de postagens para cada postagem
-		const postagens = posts.map(post => {
-			return new Postagem(
-				post.titulo,
-				post.conteudo,
-				post.data,
-				post.tags,
-				post.imagem,
-				post.destaque,
-				post.resumo
-			);
-		});
+  .then(response => response.json())
+  .then(posts => {
+    // criar uma instância do construtor de postagens para cada postagem
+    const postagens = posts.map(post => {
+      return new Postagem(
+        post.titulo,
+        post.conteudo,
+        post.data,
+        post.tags,
+        post.imagem,
+        post.destaque,
+        post.resumo
+      );
+    });
 
-		// adicionar o resumo de cada postagem à página
-		const postsContainer = document.querySelector('#posts-container');
-		postagens.forEach(post => {
-			postsContainer.appendChild(post.exibirResumo());
-		});
-	});
+    // adicionar o resumo de cada postagem à página
+    const postsContainer = document.querySelector('#posts-container');
+    postagens.forEach(post => {
+      postsContainer.appendChild(post.exibirResumo());
+    });
 
+    // criar uma lista de tags únicas presentes em todas as postagens
+    const tagList = [...new Set(posts.flatMap(post => post.tags))];
+
+    // criar elementos HTML para a lista de tags
+    const tagListElement = document.createElement('ul');
+    tagList.forEach(tag => {
+      const tagElement = document.createElement('li');
+      tagElement.innerText = tag;
+
+      // adicionar um evento de clique para atualizar a página com os posts que possuem a tag selecionada
+      tagElement.addEventListener('click', () => {
+        // filtrar as postagens que possuem a tag selecionada
+        const filteredPosts = posts.filter(post => post.tags.includes(tag));
+
+        // criar uma instância do construtor de postagens para cada postagem filtrada
+        const filteredPostagens = filteredPosts.map(post => {
+          return new Postagem(
+            post.titulo,
+            post.conteudo,
+            post.data,
+            post.tags,
+            post.imagem,
+            post.destaque,
+            post.resumo
+          );
+        });
+
+        // atualizar a página com as postagens filtradas
+        postsContainer.innerHTML = '';
+        filteredPostagens.forEach(post => {
+          postsContainer.appendChild(post.exibirResumo());
+        });
+      });
+
+      tagListElement.appendChild(tagElement);
+    });
+
+    // adicionar a lista de tags à página
+    const tagsContainer = document.querySelector('#tags-container');
+    tagsContainer.appendChild(tagListElement);
+  });
