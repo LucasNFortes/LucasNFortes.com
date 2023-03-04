@@ -2,24 +2,27 @@
   display: flex;
   flex-wrap: wrap;  
   margin: 0 auto;
-  width: 100vw;
-  height: 75%;
+  width: 100%;
+  height: 72%;
+  justify-content: space-around;
   background: #1a1a1a;
 }
 
 #formulario {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin: 0 auto;
+  margin-left: 15%;
+  margin-right: 15%;
   line-height: 60px;
-  justify-content: center;
+  max-height: 70%;
   background: #1a1a1a;
 }
 
 #formulario .nome,
 .email,
 .mensagem {
-  width: 600px;
+  width: 450px;
   height: 50px;
   border-radius: 10px;
   text-align: left;
@@ -28,8 +31,8 @@
 
 #formulario .mensagem {
   resize: vertical;
-  min-height: 100px;
-  max-height: 20vh;
+  min-height: 50px;
+  max-height: 200px;
 }
 
 #formulario button {
@@ -53,8 +56,8 @@
 #formulario form {
   display: flex;
   flex-wrap: wrap;
-  max-width: 40vw;
+  max-width: 40%;
 }
 .campos>input {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }

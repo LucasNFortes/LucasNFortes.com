@@ -21,23 +21,6 @@ img {
   /*Importante*/
 }
 
-main {
-  padding-top: 130px;
-}
-
-@media screen and (max-width: 800px) {
-  main {
-    padding-top: 180px;
-    margin-left: 50px;
-    margin-right: 50px;
-    align-content: space-around;
-  }
-
-  .title {
-    line-height: 50px;
-  }
-}
-
 #oi {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -79,12 +62,6 @@ main {
   flex: 1 1;
   margin: 30px;
 }
-
-/*@media screen and (max-width: 800px) {
-  #nsa {
-    height: 700px;
-  }
-}*/
 
 #welcome {
   display: flex;
@@ -133,32 +110,9 @@ main {
   margin-right: 10vw;
 }
 
-/*@media screen and (max-width: 800px) {
-  #assuntos {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 0;
-    justify-content: center;
-    align-content: center;
-    padding-top: 140px;
-  }
-
-  #assuntos img {
-    height: 200px;
-  }
-}*/
-
 .desloca {
   margin-left: 10vw;
   -webkit-margin-after: -180px
-}
-
-@media screen and (max-width: 800px) {
-  .desloca {
-    margin-left: 10vw;
-    -webkit-margin-after: -220px
-  }
 }
 
 #jornada {
@@ -197,7 +151,7 @@ main {
 #famteagat {
   display: flex;
   flex-wrap: nowrap;
-  max-width: 80vw;
+  max-width: 80%;
   margin: 0 auto;
   justify-content: center;
 }

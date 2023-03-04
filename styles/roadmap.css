@@ -22,16 +22,15 @@
 }
 
 #roadmap body {
-    width: 100vw;
+    width: 100%;
     font-family: 'Share Tech Mono';
     color: #c7c7c7;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 1.5;
+    font-size: 1.2rem;
+    line-height: 1.3;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
-    -webkit-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 80%;
     text-align: justify
 }
 
@@ -45,7 +44,7 @@
 }
 
 #roadmap .inner-wrapper-padding {
-    padding: 0 5vw;
+    padding: 0 5%;
 }
 
 #roadmap .about-timeline {
@@ -314,15 +313,15 @@
 }
 
 #roadmap .timeline-row:first-child .timeline-box:first-child img {
-    filter: drop-shadow(0 0 27px rgba(0, 0, 0, 0.16));
-    -webkit-filter: drop-shadow(0 0 27px rgba(0, 0, 0, 0.16));
+    filter: drop-shadow(0 0 27px #00000029);
+    -webkit-filter: drop-shadow(0 0 27px #00000029);
     display: block;
     margin: 0;
 }
 
 #roadmap .timeline-box-wrap .timeline-content img {
-    filter: drop-shadow(0 0 27px rgba(255, 255, 255, 0.16));
-    -webkit-filter: drop-shadow(0 0 27px rgba(0, 0, 0, 0.16));
+    filter: drop-shadow(0 0 27px #ffffff29);
+    -webkit-filter: drop-shadow(0 0 27px #00000029);
     z-index: 2;
     position: relative;
 }

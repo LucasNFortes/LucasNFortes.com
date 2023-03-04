@@ -18,10 +18,11 @@ html, body {
   font-family: 'Share Tech Mono';
   font-size: 1.2rem;
   list-style: none;
+  overflow-x:hidden;
 }
 
 main {
-  top: 100px;
+  padding-top: 8%;
 }
 
 ul, li {
