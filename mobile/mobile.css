@@ -355,3 +355,37 @@ h3, h6 {
   width: 280px;
 }
 
+
+#posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+  max-width: 80%;
+}
+
+#posts-container>div {
+  flex: 1 1 300px;
+  margin: 30px;
+}
+
+#posts-container>div>span {
+  color: #00c2ff;
+  cursor: pointer;
+}
+
+#posts-container>img {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;  
+}
+
+#posts-container>div>button {
+  color: #00c2ff;
+  text-decoration: underline;
+  background: none;
+  font-size: 1.2rem;
+  cursor:pointer;
+}
