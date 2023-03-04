@@ -50,7 +50,16 @@
   "data": "20-12-2022",
   "imagem": "./media/posts/tabuada.png",
   "destaque": "./media/posts/tabuadaD.png",
-  "tags": ["#Tecnologia","#Família"]
+  "tags": ["#Tecnologia","#Familia"]
+},
+
+{
+  "titulo": "10 anos da Sabrina",
+  "conteudo": "Aniversário de 10 anos da pessoa que eu mais amo no mundo. Minha filha Sabrina, aquela que tem cara de tangerina. Te amo filha.",
+  "data": "23-05-2022",
+  "imagem": "./media/posts/sabrina-10.jpg",
+  "destaque": "./media/posts/sabrina-10D.jpg",
+  "tags": ["#Sabrina","#Familia"]
 },
 
 {
@@ -59,6 +68,6 @@
   "data": "30-10-2022",
   "imagem": "./media/posts/eu.png",
   "destaque": "./media/posts/euD.png",
-  "tags": ["#História"]
+  "tags": ["#Historia"]
 }
 ]
