@@ -60,16 +60,10 @@ class Formulario extends React.Component {
 export default Formulario;
 /*End Formulário*/
 
-function detectAndRedirectMobile() {
-  const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-  if (isMobile) {
-    redirectToMobileSite();
-  }
-}
+// Verifica se o usuário está acessando o site por um dispositivo móvel
+const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
-function redirectToMobileSite() {
-  const mobileSiteUrl = "./mobile/index-mobile.html";
-  window.location.href = mobileSiteUrl;
+// Se o usuário estiver acessando o site por um dispositivo móvel, redireciona para a página mobile
+if (isMobile) {
+  window.location.href = "./mobile/index-mobile.html";
 }
-
-detectAndRedirectMobile();
