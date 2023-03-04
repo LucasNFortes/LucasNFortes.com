@@ -363,11 +363,10 @@ h3, h6 {
   margin: 0 auto;
   justify-content: center;
   align-content: center;
-  max-width: 80%;
 }
 
 #posts-container>div {
-  flex: 1 1 300px;
+  flex: 1 1;
   margin: 30px;
 }
 
@@ -387,6 +386,7 @@ h3, h6 {
   color: #00c2ff;
   text-decoration: underline;
   background: none;
+  border: none;
   font-size: 1.2rem;
   cursor:pointer;
 }
