@@ -3,7 +3,7 @@
   "titulo": "Chat GPT chega ao Slack",
   "conteudo": "O ChatGPT chegou ao Slack aliar o poder da inteligência artificial com as conversas corporativas. O recurso ficará localizado no ícone de 3 pontos quee exibe mais opções de conversação. Procurando a opção “Rascunho de resposta” e a tecnologia GPT criará um texto sugerido com base na pergunta ou comentário no tópico específico. Não é certo a quão detalhada será a resposta ou como as questões de privacidade funcionarão. Os usuários poderão editar o texto gerado pelo ChatGPT para corrigir erros e antes de enviá-lo ao grupo.",
   "data": "09-03-2023",
-  "imagem": "./media/posts/slack-gpt.jpg",
+  "imagem": "./media/posts/slack-gpt.png",
   "destaque": "./media/posts/slack-gptD.jpg",
   "tags": ["#Tecnologia"]
 },
