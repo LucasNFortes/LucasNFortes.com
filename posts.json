@@ -1,5 +1,14 @@
 [
 {
+  "titulo": "Chat GPT chega ao Slack",
+  "conteudo": "O ChatGPT chegou ao Slack aliar o poder da inteligência artificial com as conversas corporativas. O recurso ficará localizado no ícone de 3 pontos quee exibe mais opções de conversação. Procurando a opção “Rascunho de resposta” e a tecnologia GPT criará um texto sugerido com base na pergunta ou comentário no tópico específico. Não é certo a quão detalhada será a resposta ou como as questões de privacidade funcionarão. Os usuários poderão editar o texto gerado pelo ChatGPT para corrigir erros e antes de enviá-lo ao grupo.",
+  "data": "09-03-2023",
+  "imagem": "./media/posts/slack-gpt.jpg",
+  "destaque": "./media/posts/slack-gptD.jpg",
+  "tags": ["#Tecnologia"]
+},
+
+{
   "titulo": "Apresentando Sara",
   "conteudo": "Sara é minha terceira (e última, com certeza) gata. Foi um pouco rejeitada pelos os outros dois no começo porque eles já estavam mais de um ano juntos. Mas se adaptou rápido, é a parceira da maratona da madrugada da Selena, é a mais equilibrada dos très no quesito comida, não come muito nem pouco. É a menorzinha da equipe também, e é a única que ainda não está castrada, mas a hora está chegando.",
   "data": "02-02-2023",
