@@ -278,10 +278,23 @@ h3, h6 {
 #welcome .text {
   margin: 15%;
 }
+
+#welcome .image {
+  display: flex;
+  justify-content: center;
+}
+
 #assuntos {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+}
+
+#assuntos .tecnologia h3, .gatos h3, .sabrina h3, .familia h3 {
+  margin: 0;
+}
+#assuntos>div {
+  margin-bottom: 50px;
 }
 
 #jornada p, h1, h6 {
