@@ -1,0 +1,82 @@
+[
+{
+  "titulo": "Chat GPT chega ao Slack",
+  "conteudo": "O ChatGPT chegou ao Slack aliar o poder da inteligência artificial com as conversas corporativas. O recurso ficará localizado no ícone de 3 pontos quee exibe mais opções de conversação. Procurando a opção “Rascunho de resposta” e a tecnologia GPT criará um texto sugerido com base na pergunta ou comentário no tópico específico. Não é certo a quão detalhada será a resposta ou como as questões de privacidade funcionarão. Os usuários poderão editar o texto gerado pelo ChatGPT para corrigir erros e antes de enviá-lo ao grupo.",
+  "data": "09-03-2023",
+  "imagem": "./media/posts/slack-gpt.png",
+  "destaque": "./media/posts/slack-gptD.jpg",
+  "tags": ["#Tecnologia"]
+},
+
+{
+  "titulo": "Apresentando Sara",
+  "conteudo": "Sara é minha terceira (e última, com certeza) gata. Foi um pouco rejeitada pelos os outros dois no começo porque eles já estavam mais de um ano juntos. Mas se adaptou rápido, é a parceira da maratona da madrugada da Selena, é a mais equilibrada dos très no quesito comida, não come muito nem pouco. É a menorzinha da equipe também, e é a única que ainda não está castrada, mas a hora está chegando.",
+  "data": "02-02-2023",
+  "imagem": "./media/posts/sara.png",
+  "destaque": "./media/posts/saraD.png",
+  "tags": ["#Gatos"]
+},
+
+{
+  "titulo": "Apresentando Selena",
+  "conteudo": "Selena foi a minha segunda gata, melhor amiga e parceira do Salém, ao contrário dele, tem pouco apetite desde pequena, se mantendo esbelta desde sempre. É a mais inquieta dos três, sempre dorme menos, e corre mais durante a madrugada.",
+  "data": "02-02-2023",
+  "imagem": "./media/posts/selena.png",
+  "destaque": "./media/posts/selenaD.png",
+  "tags": ["#Gatos"]
+},
+
+{
+  "titulo": "Apresentando o Salém",
+  "conteudo": "Salém foi o meu primeiro gato. Como tutor de primeira viagem acabei por deixar comida à vontade. Então ele desenvolveu compulsão alimentar, engordando muito chegando a quase 9kg, o que é muito para um gato. Após um breve período de tratamento com ração para gatos obesos ele conseguiu perder alguns quilos, hoje é um gato saudável, ficou apenas a pele flácida na barriga pra lembrar da época de gato obeso.",
+  "data": "02-02-2023",
+  "imagem": "./media/posts/salem.png",
+  "destaque": "./media/posts/salemD.png",
+  "tags": ["#Gatos"]
+},
+
+{
+  "titulo": "Loja no RedBubble",
+  "conteudo": "Redbubble é um site de vendas online, especializado em produtos personalizados com designs criados por artistas independentes de todo o mundo. Os produtos incluem camisetas, canecas, adesivos, capas para celular, entre outros itens. A empresa oferece uma plataforma para os artistas vender seus trabalhos e é responsável pelo processamento de pagamentos, produção e envio dos produtos. Redbubble é conhecido por sua ampla seleção de designs únicos e inovadores.",
+  "data": "31-01-2023",
+  "imagem": "./media/posts/redbubble.png",
+  "destaque": "./media/posts/redbubbleD.png",
+  "tags": ["#Tecnologia"]
+},
+
+{
+  "titulo": "Chat GPT",
+  "conteudo": "ChatGPT é um modelo de linguagem de grande porte treinado pela OpenAI. É capaz de responder a uma ampla variedade de perguntas e tarefas com informações atualizadas até 2021. ChatGPT é altamente preciso e eficiente na geração de respostas concisas, tornando-se uma ferramenta valiosa para ajudar os usuários em suas necessidades de informação.",
+  "data": "01-01-2023",
+  "imagem": "./media/posts/chatgpt.png",
+  "destaque": "./media/posts/chatgptD.png",
+  "tags": ["#Tecnologia"]
+},
+
+{
+  "titulo": "Tabuada",
+  "conteudo": "Percebendo a dificuldade da minha filha, desenvolvi jogos lúdicos para que ela treine a tabuada. Focando na aprendizagem pela repetição.",
+  "data": "20-12-2022",
+  "imagem": "./media/posts/tabuada.png",
+  "destaque": "./media/posts/tabuadaD.png",
+  "tags": ["#Tecnologia","#Familia"]
+},
+
+{
+  "titulo": "10 anos da Sabrina",
+  "conteudo": "Aniversário de 10 anos da pessoa que eu mais amo no mundo. Minha filha Sabrina, aquela que tem cara de tangerina. Te amo filha.",
+  "data": "23-05-2022",
+  "imagem": "./media/posts/sabrina-10.jpg",
+  "destaque": "./media/posts/sabrina-10D.jpg",
+  "tags": ["#Sabrina","#Familia"]
+},
+
+{
+  "titulo": "Sobre mim",
+  "conteudo": "Lucas do Nascimento Fortes, brasileiro, nascido em Manaus-AM, atualmente funcionário público do estado do Amazonas, e parceiro da OrangeBox, orgulhoso pai da Sabrina Fortes e tutor de três lindos gatos pretos, Salém, Selena e Sara. Breve história: Nascido no dia 20 de abril de 1992, na cidade de Manaus-AM, estudou no antigo CEFET-AM (atual IFAM) onde cursou o Técnico em Mecânica Industrial no período de 2006 a 2008. Estagiou e trabalhou na Fucapi (Fundação Centro de Análise e Pesquisas Tecnológicas) de 2008 a 2010. Sendo aprovado em seu primeiro concurso na Secretaria Municipal de Educação - SE./MED-Manaus no ano de 2011 onde trabalhou até o ano de 2014. Teve a graça de se tornar pai de uma linda menina no ano de 2012. Na presente data trabalha na Secretaria de Estado de Saúde - SES-AM (onde tomou posse em 2017) e na OrangeBox (desde 2022) desenvolvendo e implementando sites, criando sistemas e no treinamento em ferramentas colaborativas. É, também, aluno do curso Superior de #Tecnologia em Análise e Desenvolvimento de Sistemas na Uninorte (grupo Ser Educacional).",
+  "data": "30-10-2022",
+  "imagem": "./media/posts/eu.png",
+  "destaque": "./media/posts/euD.png",
+  "tags": ["#Historia"]
+}
+]

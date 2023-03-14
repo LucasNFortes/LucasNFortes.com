@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Share Tech Mono' rel='stylesheet'>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="general.css" media="screen" />
+  <link rel="icon" href="./media/icon.png"/>
+  <link rel="stylesheet" type="text/css" href="styles\main.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="styles\header.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="styles\socialmedia.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="styles\footer.css" media="screen" />
+  <title>LucasNFortes</title>
+</head>
+
+<body>
+  <header>
+    <div>
+      <a href="index.html"><img class="logo" src="media/logo-lucas-b.png"></img></a>
+    </div>
+    <div>
+      <nav>
+        <ul class="menu">
+          <a href="index.html" class="underlined">Home</a>
+          <a href="about.html" class="underlined">Sobre</a>
+          <a href="news.html" id="pagina-atual" class="underlined">News</a>
+          <a href="contact.html" class="underlined">Contato</a>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div id="posts-container"></div>
+    <script src="./posts.js"></script>
+    
+    <div class="socialmedias">
+      <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <div class="icon-bar">
+        <a href="https://www.linkedin.com/in/lucasnfortes/" target="_blank" class="linkedin"><i
+            class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/LucasNFortes" target="_blank" class="github"><i class="fa fa-github"></i></a>
+        <a href="https://www.instagram.com/lucas_nfortes/" target="_blank" class="instagram"><i
+            class="fa fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@lucasnfortes" target="_blank" class="youtube"><i
+            class="fa fa-youtube-play"></i></a>
+        <a href="https://web.whatsapp.com/send/?phone=5592999133135" target="_blank" class="whatsapp"><i
+            class="fa fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </main>
+
+  <footer id="footer">
+    <div class="site-info">
+      <a href="https://www.lucasnfortes.com.br/">LucasNFortes </a>&copy; <span id="year"></span>
+      Todos
+      os direitos reservados | Desenvolvido por <a href="https://www.orangeboxsw.com.br/">OrangeBox</a>
+    </div>
+  </footer>
+
+  <script type="module" src="myscript.jsx"></script>
+
+</body>
+
+</html>
