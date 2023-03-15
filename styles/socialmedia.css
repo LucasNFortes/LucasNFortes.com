@@ -1,4 +1,5 @@
 .socialmedias {
+  z-index: 3;
   position: fixed;
   color: #ffffff;
   left: 0;
