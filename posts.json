@@ -1,7 +1,7 @@
 [
 {
   "titulo": "Chat GPT chega ao Slack",
-  "conteudo": "O ChatGPT chegou ao Slack aliar o poder da inteligência artificial com as conversas corporativas. O recurso ficará localizado no ícone de 3 pontos quee exibe mais opções de conversação. Procurando a opção “Rascunho de resposta” e a tecnologia GPT criará um texto sugerido com base na pergunta ou comentário no tópico específico. Não é certo a quão detalhada será a resposta ou como as questões de privacidade funcionarão. Os usuários poderão editar o texto gerado pelo ChatGPT para corrigir erros e antes de enviá-lo ao grupo.",
+  "conteudo": "O ChatGPT chegou ao Slack para aliar o poder da inteligência artificial com as conversas corporativas. O recurso ficará localizado no ícone de 3 pontos quee exibe mais opções de conversação. Procurando a opção “Rascunho de resposta” e a tecnologia GPT criará um texto sugerido com base na pergunta ou comentário no tópico específico. Não é certo a quão detalhada será a resposta ou como as questões de privacidade funcionarão. Os usuários poderão editar o texto gerado pelo ChatGPT para corrigir erros e antes de enviá-lo ao grupo.",
   "data": "09-03-2023",
   "imagem": "./media/posts/slack-gpt.png",
   "destaque": "./media/posts/slack-gptD.jpg",
@@ -37,7 +37,7 @@
 
 {
   "titulo": "Loja no RedBubble",
-  "conteudo": "Redbubble é um site de vendas online, especializado em produtos personalizados com designs criados por artistas independentes de todo o mundo. Os produtos incluem camisetas, canecas, adesivos, capas para celular, entre outros itens. A empresa oferece uma plataforma para os artistas vender seus trabalhos e é responsável pelo processamento de pagamentos, produção e envio dos produtos. Redbubble é conhecido por sua ampla seleção de designs únicos e inovadores.",
+  "conteudo": "Redbubble é um site de vendas online, especializado em produtos personalizados com designs criados por artistas independentes de todo o mundo. Os produtos incluem camisetas, canecas, adesivos, capas para celular, entre outros itens. A empresa oferece uma plataforma para os artistas vender seus trabalhos e é responsável pelo processamento de pagamentos, produção e envio dos produtos. Redbubble é conhecido por sua ampla seleção de designs únicos e inovadores. <a id='link' target='blank' href='https://www.redbubble.com/people/LucasNFortes/'>Visite aqui.</a>",
   "data": "31-01-2023",
   "imagem": "./media/posts/redbubble.png",
   "destaque": "./media/posts/redbubbleD.png",
@@ -46,7 +46,7 @@
 
 {
   "titulo": "Chat GPT",
-  "conteudo": "ChatGPT é um modelo de linguagem de grande porte treinado pela OpenAI. É capaz de responder a uma ampla variedade de perguntas e tarefas com informações atualizadas até 2021. ChatGPT é altamente preciso e eficiente na geração de respostas concisas, tornando-se uma ferramenta valiosa para ajudar os usuários em suas necessidades de informação.",
+  "conteudo": "ChatGPT é um modelo de linguagem de grande porte treinado pela OpenAI. É capaz de responder a uma ampla variedade de perguntas e tarefas com informações atualizadas até 2021. ChatGPT é altamente preciso e eficiente na geração de respostas concisas, tornando-se uma ferramenta valiosa para ajudar os usuários em suas necessidades de informação. <a id='link' target='_blank' href='https://chat.openai.com/chat'>Teste o ChatGPT.</a>",
   "data": "01-01-2023",
   "imagem": "./media/posts/chatgpt.png",
   "destaque": "./media/posts/chatgptD.png",
@@ -55,7 +55,7 @@
 
 {
   "titulo": "Tabuada",
-  "conteudo": "Percebendo a dificuldade da minha filha, desenvolvi jogos lúdicos para que ela treine a tabuada. Focando na aprendizagem pela repetição.",
+  "conteudo": "Percebendo a dificuldade da minha filha, desenvolvi jogos lúdicos para que ela treine a tabuada. Focando na aprendizagem pela repetição. <a id='link' target='_blank' href='https://lucasnfortes.github.io/Tabuada/'>Teste o jogo.</a>",
   "data": "20-12-2022",
   "imagem": "./media/posts/tabuada.png",
   "destaque": "./media/posts/tabuadaD.png",

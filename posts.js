@@ -56,12 +56,15 @@ class Postagem {
       const conteudoElement = document.createElement('div');
       const conteudoCompleto = document.createElement('p');
       const imagemCompleta = document.createElement('img');
+      conteudoCompleto.classList.add("html"); /*-------------------adiciona a classe ao conteúdo html---------------------------------*/
       const voltarBotao = document.createElement('button');
 
-      conteudoCompleto.innerText = this.conteudo;
+      conteudoCompleto.innerHTML = this.conteudo;
       imagemCompleta.src = this.imagem;
       voltarBotao.innerText = 'Voltar';
 
+      conteudoElement.appendChild(tituloElement);
+      conteudoElement.appendChild(dataElement);
       conteudoElement.appendChild(conteudoCompleto);
       conteudoElement.appendChild(imagemCompleta);
       conteudoElement.appendChild(voltarBotao);
