@@ -259,7 +259,6 @@ img {
 }
 
 .gatos-deck {
-  z-index: 21;
   margin: 0px;
   display: grid;
   grid-template-columns: 1fr;
@@ -376,7 +375,6 @@ img {
 
 /*----------------------------familia--------------------------------------*/
 .familia-deck {
-  z-index: 21;
   margin: 0px;
   display: grid;
   grid-template-columns: 1fr;
@@ -493,7 +491,6 @@ img {
 
 /*----------------------------sabrina--------------------------------------*/
 .sabrina-deck {
-  z-index: 21;
   margin: 0px;
   display: grid;
   grid-template-columns: 1fr;
@@ -610,7 +607,6 @@ img {
 
 /*----------------------------tecnologia--------------------------------------*/
 .tecnologia-deck {
-  z-index: 21;
   margin: 0px;
   display: grid;
   grid-template-columns: 1fr;
